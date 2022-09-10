@@ -1,0 +1,112 @@
+
+
+body {
+    background-color: #E5E5E5;
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+main {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+} 
+
+.input-texto {
+    margin-top: 90px;
+}
+
+/* .mensaje {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 90px;
+    /* background-image: url("imagenes/muñeco.png"); */
+   /*  background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 300px;
+
+} */ 
+
+.muneco{
+    background-color: white;
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    left: 800px;
+    top: 40px;
+    
+}
+
+.mensaje{
+    width: 330px;
+    height: 68px;
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 4000;
+    font-size: 13px;
+    line-height: 150%;
+    text-align: center;
+    color: #495057;
+    border: none;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.copiar{
+    margin-left: 100px; 
+    height: 30px;
+    width: 228px;
+    /* left: 0px;
+    top: 0px; */
+    border-radius: 24px;
+    padding: 24px;
+    background-color: grey;
+    color: white;
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.encriptar {
+    height: 45px;
+    width: 228px;
+    left: 0px;
+    top: 0px;
+    border-radius: 24px;
+    padding: 24px;
+    background-color: darkblue;
+    color: white;
+}
+
+.desencriptar {
+    height: 45px;
+    width: 228px;
+    left: 352px;
+    top: 0px;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    padding: 24px;
+    color: blue;
+}
+
+.warning {
+    font-size: 15px;
+    display: inline;
+    margin-left: 10px;
+}
+
+#warning{
+    margin-top: 50px;
+}
+/* .bi bi-exclamation-circle-fill{
+    display: inline-block;
+    width: 70px;
+    height: 20px;
+} */
